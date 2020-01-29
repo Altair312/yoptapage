@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="public/css/index.css" />
+    <title>Хааа пацаны йбать!</title>
+  </head>
+
+  <body>
+    <iframe
+      src="public/css/bg.mp3"
+      allow="autoplay"
+      style="display: none"
+      id="audio"
+    >
+    </iframe>
+    <div class="container">
+      <div class="top-header">
+        <h1>САЙТ ДЛЯ ЧЕТКИХ ПАЦАНОВ</h1>
+        <div class="top-header--links">
+          <ul>
+            <li><a href="vk.com">Вкантакте</a></li>
+            <li><a href="vk.com">Адноклассники</a></li>
+            <li><a href="http://www.syzo.ru/">Сокамерники</a></li>
+            <li><a href="http://www.syzo.ru/">Форум</a></li>
+          </ul>
+        </div>
+        <div
+          style="    padding-left: 15px;
+        font-style: italic; margin-bottom: -15px"
+        >
+          <h3>Лучше ебать друга, чем друг друга.</h3>
+          <span>-Джейсон Стейтэм</span>
+        </div>
+      </div>
+      <div class="story">
+        <p>
+          Один пацанчик который работал на мудреца, как-то спросил: - Мудрец!
+          Почему ты мне платишь всего сотку, а Зюзи всегда питик?
+        </p>
+        <p>
+          Мудрец посмотрел в окно, увидел Шаху и сказал: - Вижу стоит незнакомая
+          Шаха, а рядом явно не местный пацан. Выйди посмотри. Вышел пацан.
+          Зашел снова и говорит: - Внатуре не местный. - А откуда он? Может, с
+          Екб?
+        </p>
+        <p>
+          - Хз. - Сходи и узнай. Пошел пацан. Снова входит. - Агась! Точно, с
+          Екб. - А хуль ему надо? - Не знаю. - Так узнай, ёбана в рот! Вышел
+          пацан. Возвращается снова. - Мудрец! Он Шаху продаёт! - Чё по чём? -
+          Не знаю.
+        </p>
+        <p>
+          - Узнай, ёпту. Сходил. Вернулся и говорит: - За 18 рубасов сказал
+          отдаст. - Торг уместен? - Не знаю. В этот момент входит Зюзя и
+          говорит:
+        </p>
+        <p>
+          - Мудрец, тут городской приехал, Шаху продаёт девяносто седьмого года,
+          не битая, пробегу 90, третий хозяин. Отдаёт за 18, но я его за 15
+          сломал. Щас договор заполняем. Её за 25 влёгкую отправим. Мудрец
+          обращается к пацанчику: - Теперь ты понял, почему тебе платят сотку и
+          иногда дают пизды?
+        </p>
+        <img id="jason" src="./public/img/vd.jpg" alt="jason statham" />
+      </div>
+      <div class="about">
+        <h1>НАШИ РЕБЯТА</h1>
+        <div>
+          <img src="./public/img/lol1.jpg" alt="gena" />
+          <h3>Ментам руки не дам</h3>
+          <p>Серerа Косой</p>
+        </div>
+        <div>
+          <img src="./public/img/lol2.jpg" alt="gena" />
+          <h3>Богат не тот, у кого нет денег, а богат тот, у кого они есть</h3>
+          <p>Паша Шляпик</p>
+        </div>
+        <div>
+          <img src="./public/img/lol3.jpg" alt="gena" />
+          <h3>
+            Почему я такой потный, спросите вы? Приходится постоянно убегать от
+            пизды!
+          </h3>
+          <p>Гена Подушкин, 6Б</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Чтение скрипта из файла -->
+    <script
+      type="text/javascript"
+      charset="utf-8"
+      src="./public/js/yopta.min.js"
+    ></script>
+    <script language="YoptaScript">
+       window.onload = function() {
+    if (!localStorage.visit) {
+    window.location.reload();
+    localStorage.visit = true;
+    } else {
+      setTimeout(() => localStorage.removeItem('visit'), 1500);
+    };
+    }
+     </script>
+  </body>
+</html>
